@@ -1,0 +1,10 @@
+.red {
+    color:red;
+}
+.otherColor {
+    color:blueviolet;
+}
+#big{
+    color:aqua;
+    font-size:800%;
+}
