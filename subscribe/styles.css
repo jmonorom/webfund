@@ -228,7 +228,7 @@ img:hover {
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
-  font-family: sans-serif user-select:none;
+  font-family: sans-serif user-select-none;
 }
 .center h1 {
   color: black;
@@ -271,7 +271,7 @@ img:hover {
   grid-column: 3/4;
   grid-row: 2/4;
   font-size: 0.9em;
-  padding-top 50px;
+  padding-top: 50px;
   color: pink;
 }
 div.a {
