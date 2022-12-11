@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color: #D4ABFF;
+    font-family: 'Lobster', sans-serif;
+  }
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 60%;
+  border-radius: 80%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+
+#content{
+  max-width:960px;
+  margin:0 auto;
+  background-color:#D4ABFF;
+}
+  
+.modal-content {
+  background-color: #FF9E00;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #FF9E00;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+  
+}
+  
+</style>
+</head>
+<body>
+   <div id="content">
+      <header>
+        <div class="logo">
+          <img src="https://cdn.glitch.global/d1141d75-8582-4d7e-850d-3f0cb3ea669e/images-5.jpeg?v=1649267461264" alt="mylogo"  /> 
+        </div>
+        <nav>
+          <ul>
+            <li><a href="khmer.html"> About</a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+                        <li><a href="new.html">Home</a></li>
+            <li><a href="index.html"> site plan </a></li>
+
+
+
+
+
+          </ul>
+        </nav>
+
+        
+          <div class="home-grid">
+        
+            <h2 class="home-headline-z" >Phone Number and Contacts</h2>              
+
+            <p class="home-paragraph-z"> Wondering how to contact us? Our number is 987-129-485 and we are open 24/7! Feel free to contact us for any questions given because we are always open to help you with your desires. </p>
+          
+
+          
+            <h2 class="home-headline-7">Tour FAQS</h2>
+            <p class="home-paragraph-7" > Wondering why are tour is the best? All of our tour guides is fluent in the khmer lanquage so you don't need to be stray with them helping you shop with their communications! </p>
+<p>
+  Wondering how we will get in all of our destinations? We have cars ready over at Cambodia funding it for you with your own personal driver!
+            </p>
+            <p>
+              Necessities to bring? The weather is very tropical with the humid weather and rainy in the jungle, we hope that you'll bring warm clothes but light jackets
+            </p>
+
+
+      
+        </div>
+    
+      <footer>
+
+         
+<h2>Come Join Us and Sign on Here!</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up Here!</button>
+<h2>
+  If you want to contact us call 967-634-3291!
+        </h2>
+            <p>-Address of Meet Up/Questions- 839 Rexburg, ID 83440</p>
+            <p>-Email-cambodiatours@gmail.com</p>
+                  <img class="home-anew" src="https://cdn.glitch.global/d1141d75-8582-4d7e-850d-3f0cb3ea669e/FARqaeLVkAYVeY_.jpg?v=1649187195908" />    
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="https://cdn.glitch.global/d1141d75-8582-4d7e-850d-3f0cb3ea669e/cambodia-stone-face.jpg?v=1645331098163" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      
+      
+      <label for="uname"><b>Phone-Number</b></label>
+      <input type="text" placeholder="Enter Your Number Here" name="uname" required>
+
+
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+             <p>&copy; 2022 Khmer trips - Jeremy Freeman - Section</p>
+<div class="social">
+          <a href="https://www.youtube.com">
+          <img
+            src="https://cdn.glitch.global/17081076-0317-46af-b072-a110b5039e19/youtube.png?v=1643511063775"
+            alt="Youtube icon" width="50" height="50"
+          />
+        </a>
+        <a href="https://twitter.com">
+          <img
+            src="https://cdn.glitch.global/17081076-0317-46af-b072-a110b5039e19/twitter.png?v=1643511197600"
+            alt="Twitter icon" width="50" height="50"
+          />
+        </a>
+        <a href="https://www.facebook.com">
+          <img
+            src="https://cdn.glitch.global/17081076-0317-46af-b072-a110b5039e19/facebook.png?v=1643511201534"
+            alt="Facebook icon" width="50" height="50">  </a>
+        </div>
+
+        </footer>
+     </header>
+  </div>
+</body>
+</html>
+
+
